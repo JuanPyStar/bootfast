@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/cart.css">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <link rel="icon" href="../Imagenes/image-removebg-preview.ico" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <h1>BURGER</h1>
+      </div>
+      <div class="menu">
+        <a href="#">My Account</a>
+        <a href="../index.html">Back to Menu</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cart-container">
+        <h2>Your Cart</h2>
+        <div class="cart-items" id="cartItems">
+        </div>
+      
+        <div class="cart-actions">
+          <div class="hero-buttons">
+          <button class="btn btn-primary" id="buyBtn" onclick="handleBuy()">Buy</button>
+          <button class="btn btn-secondary" id="clearCartBtn" onclick="clearCart()">Clear Cart</button>
+        </div>
+        </div>
+      </section>
+      
+  </main>
+
+  <footer>
+    <p>© 2024. Designed by Example. Terms of Services | Privacy Policy</p>
+  </footer>
+
+  <script src="../js/cart.js" defer></script>
+  <script src="../js/script.js"></script>
+</body>
+</html>

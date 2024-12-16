@@ -1,0 +1,26 @@
+/* Añadir un tamaño fijo para las imágenes */
+.product-image img, .hero-image, .deal-card img {
+    width: 100%;
+    max-width: 300px; /* Ajusta el valor según el tamaño que desees */
+    height: auto;
+    object-fit: contain;
+  }
+  
+  /* Para que las imágenes del carrito no se desborden */
+  .cart-item img {
+    width: 100px; /* Ajusta según el tamaño que necesites */
+    height: 100px;
+    object-fit: cover; /* Mantiene la proporción sin distorsionar la imagen */
+  }
+  
+  /* Asegura que las imágenes se vean bien en todas las pantallas */
+  @media (max-width: 768px) {
+    .product-image img, .hero-image, .deal-card img {
+      max-width: 150px; /* Menor tamaño en pantallas pequeñas */
+    }
+    .cart-item img {
+      width: 75px;
+      height: 75px;
+    }
+  }
+  

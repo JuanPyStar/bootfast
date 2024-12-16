@@ -1,0 +1,90 @@
+/* Estilos para la sección de comentarios */
+.comments-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .comments-section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Estilos para el formulario de comentarios */
+  .comment-box {
+    display: flex;
+ 
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .comment-box label {
+    font-size: 16px;
+    color:  #e74c3c;
+    margin-bottom: 8px;
+  }
+  
+  .comment-box input,
+  .comment-box textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .comment-box input:focus,
+  .comment-box textarea:focus {
+   
+    outline: none;
+  }
+  
+  .comment-box button {
+  
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  /* Estilos para la lista de comentarios */
+  .comments-list {
+    margin-top: 30px;
+  }
+  
+  .comment-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment-item .comment-author {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .comment-item .comment-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  .btn-eliminar {
+    background-color: #ff4d4d;
+    color: #fff;    
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}
+  

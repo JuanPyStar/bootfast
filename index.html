@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Ordering Page</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/comentarios.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="icon" href="Imagenes/image-removebg-preview.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <h1>BURGER</h1>
+        </div>
+        <div class="menu">
+          <a href="#">My Account</a>
+          <a href="html/cart.html">Cart</a>
+        </div>
+      </nav>
+
+      <div class="hero-section">
+        <div class="hero-content">
+          <img src="Imagenes/Combo.png" alt="Combo" class="hero-image" />
+          <h1 class="hero-title">BURGER</h1>
+          <div class="hero-buttons">
+            <button class="btn btn-primary">Order Now</button>
+            <button class="btn btn-secondary">View Menu</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="categories-container">
+        <h2>Categories</h2>
+        <div class="categories">
+          <a href="#" class="category-item"><i class="fas fa-hamburger"></i>Burgers</a>
+          <a href="#" class="category-item"><i class="fas fa-drumstick-bite"></i>Chicken</a>
+          <a href="#" class="category-item"><i class="fas fa-pizza-slice"></i>Pizza</a>
+          <a href="#" class="category-item"><i class="fas fa-leaf"></i>Salad</a>
+          <a href="#" class="category-item"><i class="fas fa-french-fries"></i>French Fries</a>
+          <a href="#" class="category-item"><i class="fas fa-wine-glass-alt"></i>Drinks</a>
+        </div>
+      </section>
+
+      <section class="menu-container">
+        <h2>Products</h2>
+        <div class="menu">
+          <div class="product">
+            <div class="product-image">
+              <img src="Imagenes/fries.png" alt="Golden French Fries" />
+            </div>
+            <p class="product-name">Golden French Fries</p>
+            <div class="product-rating">★★★★☆</div>
+            <p class="product-price">$21.99</p>
+            <button class="order-btn" data-name="Golden French Fries" data-price="21.99" data-image="../Imagenes/fries.png">Order Now</button>
+          </div>
+
+          <div class="product">
+            <div class="product-image">
+              <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT7RFvYjTzPt1KFV2LSljQwOBAYenKqY36-2wd8pnKZTfsDgewm" alt="McDonald's - Dubai" />
+            </div>
+            <p class="product-name">McDonald's - Dubai</p>
+            <div class="product-rating">★★★★★</div>
+            <p class="product-price">$41.99</p>
+            <button class="order-btn" data-name="McDonald's - Dubai" data-price="41.99" data-image="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT7RFvYjTzPt1KFV2LSljQwOBAYenKqY36-2wd8pnKZTfsDgewm">Order Now</button>
+          </div>
+
+          <div class="product">
+            <div class="product-image">
+              <img src="https://i.pinimg.com/736x/3c/29/42/3c29423ceac447df80a5b18bbf6407cf.jpg" alt="Combo" />
+            </div>
+            <p class="product-name">Combo</p>
+            <div class="product-rating">★★★☆☆</div>
+            <p class="product-price">$37.99</p>
+            <button class="order-btn" data-name="Combo" data-price="37.99" data-image="https://i.pinimg.com/736x/3c/29/42/3c29423ceac447df80a5b18bbf6407cf.jpg">Order Now</button>
+          </div>
+        </div>
+
+
+        <section class="menu-container">
+            <h2>Products</h2>
+            <div class="menu">
+              <div class="product">
+                <div class="product-image">
+                  <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRxJSWa6Xo60fR4-S_OvDjcOX0b_F6UhOujnofMII_fJ4t5n4IY" alt="Golden French Fries" />
+                </div>
+                <p class="product-name">Hamburguesa de Queso doble</p>
+                <div class="product-rating">★★★★☆</div>
+                <p class="product-price">$29.99</p>
+                <button class="order-btn" data-name="Hamburguesa de Queso doble" data-price="29.99"data-image="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRxJSWa6Xo60fR4-S_OvDjcOX0b_F6UhOujnofMII_fJ4t5n4IY">Order Now</button>
+              </div>
+    
+              <div class="product">
+                <div class="product-image">
+                  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQsjEI3vrcAghgxIJPd2FpymmrRplCvV9exYkMVf1un6LliE_He" alt="McDonald's - Dubai" />
+                </div>
+                <p class="product-name">Combo KFC</p>
+                <div class="product-rating">★★★★★</div>
+                <p class="product-price">$21.99</p>
+                <button class="order-btn" data-name="Combo KFC" data-price="21.99"data-image="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQsjEI3vrcAghgxIJPd2FpymmrRplCvV9exYkMVf1un6LliE_He">Order Now</button>
+              </div>
+    
+              <div class="product">
+                <div class="product-image">
+                  <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQv9bFxki3rU3JikRB6Y7jJyLaPhwjZ__fhG9C77jlILGcqytcE" alt="Combo" />
+                </div>
+                <p class="product-name">Combo Package</p>
+                <div class="product-rating">★★★☆☆</div>
+                <p class="product-price">$34.99</p>
+                <button class="order-btn" data-name="Combo Package" data-price="24.99"data-image="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQv9bFxki3rU3JikRB6Y7jJyLaPhwjZ__fhG9C77jlILGcqytcE">Order Now</button>
+              </div>
+            </div>
+        </section>
+ 
+      </section>
+
+      <section class="special-deals">
+        <h2 class="section-title">SPECIAL DEALS</h2>
+        <div class="deal-container">
+          <div class="deal-card">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSSmSNPtTd4SbtdFT9B7-haA1zeWq46boumOrmC73W_7UqAfS3g" alt="McDonald's + Drink" />
+            <h3 class="deal-name">McDonald's + Drink</h3>
+            <p class="deal-price">$25.00</p>
+            <p class="deal-description">La oferta incluye una comida de McDonald's acompañada de una bebida.</p>
+            <button class="order-btn" data-name="McDonald's + Drink" data-price="25.00"data-image="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSSmSNPtTd4SbtdFT9B7-haA1zeWq46boumOrmC73W_7UqAfS3g">Order Now</button>
+          </div>
+          <div class="deal-card">
+            <img src="https://b2cqbano.vtexassets.com/arquivos/ids/155775/hamburguesaCombo.jpg?v=638289269468900000" alt="Qbano Combo" />
+            <h3 class="deal-name">Qbano, Combo Especial</h3>
+            <p class="deal-price">$20.00</p>
+            <p class="deal-description">Incluye una comida de Qbano con una bebida.</p>
+            <button class="order-btn" data-name="Qbano, Combo Especial" data-price="20.00"data-image="https://b2cqbano.vtexassets.com/arquivos/ids/155775/hamburguesaCombo.jpg?v=638289269468900000">Order Now</button>
+          </div>
+          <div class="deal-card">
+            <img src="https://images.getduna.com/5fe6067e-0e11-4869-9118-ad3dcc8765c2/49a1eeb256b2602e_domicilio_38691_744x744_1715015440_1715082435.png?d=600x600&format=webp" alt="KFC Combo + Drink" />
+            <h3 class="deal-name">KFC's + Drink</h3>
+            <p class="deal-price">$25.00</p>
+            <p class="deal-description">Incluye una comida de KFC con una bebida.</p>
+            <button class="order-btn" data-name="KFC's + Drink" data-price="25.00"data-image="https://images.getduna.com/5fe6067e-0e11-4869-9118-ad3dcc8765c2/49a1eeb256b2602e_domicilio_38691_744x744_1715015440_1715082435.png?d=600x600&format=webp">Order Now</button>
+          </div>
+        </div>
+      </section>
+      <section class="features-container">
+        <h2>Our Features</h2>
+        <div class="features">
+          <div class="feature-item">
+            <i class="fas fa-credit-card"></i>
+            <h3>Accept Cards</h3>
+            <p>We accept all major credit and debit cards for fast and secure payments.</p>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-calendar-check"></i>
+            <h3>Online Booking</h3>
+            <p>Book your favorite meals online with ease and convenience.</p>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-truck"></i>
+            <h3>Home Delivery</h3>
+            <p>Fast and reliable home delivery straight to your door.</p>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Best Location</h3>
+            <p>Located at the heart of the city for your easy access.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+      <section class="comments-section">
+        <h2>Comentarios</h2>
+        <div class="comment-box">
+          <form id="comment-form">
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" placeholder="Ingresa tu nombre" required />
+      
+              <label for="comment">Comentario:</label>
+              <input id="comment" placeholder="Ingresa tu comentario" required></input>
+      
+              <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+        
+        <div id="comments-list" class="comments-list">
+            <!-- Comentarios -->
+        </div>
+      </section>
+      
+
+  <script>
+    // Obtener elementos del formulario y la lista de comentarios
+const commentForm = document.getElementById("comment-form");
+const nameInput = document.getElementById("name");
+const commentInput = document.getElementById("comment");
+const commentsList = document.getElementById("comments-list");
+
+// Función para obtener los comentarios almacenados en localStorage
+function getCommentsFromStorage() {
+  const storedComments = localStorage.getItem('comments');
+  return storedComments ? JSON.parse(storedComments) : [];
+}
+
+// Función para almacenar los comentarios en localStorage
+function saveCommentsToStorage(comments) {
+  localStorage.setItem('comments', JSON.stringify(comments));
+}
+
+// Función para agregar un comentario a la lista
+function addComment(name, comment) {
+  const comments = getCommentsFromStorage(); // Obtener los comentarios actuales
+  const commentData = { name, comment };
+  comments.push(commentData); // Agregar el nuevo comentario
+  saveCommentsToStorage(comments); // Guardar los comentarios actualizados
+  renderComments(); // Vuelve a renderizar los comentarios
+}
+
+// Función para renderizar la lista de comentarios
+function renderComments() {
+  const comments = getCommentsFromStorage(); // Obtener los comentarios del almacenamiento
+
+  commentsList.innerHTML = ''; // Limpiar la lista antes de renderizarla
+
+  comments.forEach((comment, index) => {
+    const commentElement = document.createElement("div");
+    commentElement.classList.add("comment-item");
+
+    commentElement.innerHTML = `
+      <div class="comment-author">${comment.name}</div>
+      <div class="comment-text">${comment.comment}</div>
+      <button  class="btn btn-eliminar" onclick="deleteComment(${index})">Eliminar</button>
+    `;
+
+    commentsList.appendChild(commentElement);
+  });
+}
+
+// Función para eliminar un comentario
+function deleteComment(index) {
+  const comments = getCommentsFromStorage(); // Obtener los comentarios actuales
+  comments.splice(index, 1); // Eliminar el comentario del array
+  saveCommentsToStorage(comments); // Guardar los comentarios actualizados
+  renderComments(); // Vuelve a renderizar la lista de comentarios
+}
+
+// Evento para manejar el envío del formulario
+commentForm.addEventListener("submit", function (e) {
+  e.preventDefault(); // Prevenir el envío del formulario
+
+  const name = nameInput.value.trim();
+  const comment = commentInput.value.trim();
+
+  if (name && comment) {
+    addComment(name, comment); // Agregar el comentario a la lista
+    nameInput.value = ''; // Limpiar el campo de nombre
+    commentInput.value = ''; // Limpiar el campo de comentario
+  }
+});
+
+// Llamada inicial para renderizar los comentarios cuando se carga la página
+renderComments();
+
+  </script>
+
+    <footer>
+      <p>© 2024. Designed by Example. Terms of Services | Privacy Policy</p>
+    </footer>
+    <script src="js/script.js" defer></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>
